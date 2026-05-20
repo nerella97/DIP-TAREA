@@ -2,6 +2,8 @@ h1{
     color: red;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+
 }
 
 h2{
@@ -20,4 +22,33 @@ h3{
 
 body{
     background-color: rgb(216, 255, 216);
+}
+p{
+     color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+}
+.verde{
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+.negro{
+    color: white;
+    background: black;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+.azul{
+    color:blue;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+li{
+    color:blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
 }
