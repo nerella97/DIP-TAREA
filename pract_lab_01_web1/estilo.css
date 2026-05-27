@@ -1,0 +1,22 @@
+h1{
+    font-weight: bold;
+    font-size: 27px;
+}
+
+h2{
+    font-weight: bold;
+    border:1px solid black;
+    font-size: 20px;
+}
+
+.enfasis1{
+    border-bottom: 2px solid blue;
+}
+.redline{
+    border-bottom: 4px dotted red;
+    border-top: 4px dotted red;
+}
+
+.greenline{
+    border: 4px dotted greenyellow;
+}
