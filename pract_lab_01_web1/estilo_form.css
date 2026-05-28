@@ -14,18 +14,74 @@ h2{
     font-size: 18px
 }
 
+label{
+    display: block;
+    margin-bottom: 3px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+input{
+    width: 150px;
+}
+
+fieldset{
+    padding-top: 13px;
+    text-align: left;
+}
+
 .titulo-caja{
     font-weight: bold; 
     text-align: left;
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .style-caja{
     text-align: left;
+    margin-bottom: 10px;
 }
 
-label{
-    display: block;
+
+.estructura{
     margin-top: 10px;
 }
 
+.style-caja select{
+    margin-top: 0;
+}
+
+.label-inline{
+     display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 5px;
+    
+}
+
+.radio-texto{
+    display: inline !important;
+    margin: 0;
+}
+
+input[type="radio"]{
+    width: auto;
+    margin-left: 5px;
+    margin-right: 3px;
+    vertical-align: middle;
+}
+
+input[type="checkbox"]{
+    width: auto;
+    margin-right: 5px;
+}
+
+input[type="submit"]{
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.boton{
+    text-align: center;
+    margin-top: 15px;
+}

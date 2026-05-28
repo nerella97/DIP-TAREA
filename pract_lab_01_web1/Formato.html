@@ -30,7 +30,7 @@
                 <div class="style-caja">
                     <label for="f.nac">Fecha de nacimiento</label>
                     <select name="dia">
-                        <option>Día</option>
+                        <option selected>Día</option>
                         <option>1</option>
                         <option>2</option>
                         <option>3</option>
@@ -64,22 +64,22 @@
                         <option>31</option>
                     </select>
                     <select name="mes">
-                        <option value="">Mes</option>
-                        <option value="1">Enero</option>
-                        <option value="2">Febrero</option>
-                        <option value="3">Marzo</option>
-                        <option value="4">Abril</option>
-                        <option value="5">Mayo</option>
-                        <option value="6">Junio</option>
-                        <option value="7">Julio</option>
-                        <option value="8">Agosto</option>
-                        <option value="9">Septiembre</option>
-                        <option value="10">Octubre</option>
-                        <option value="11">Noviembre</option>
-                        <option value="12">Diciembre</option>
+                        <option value="" selected>Mes</option>
+                        <option value="1">Ene</option>
+                        <option value="2">Feb</option>
+                        <option value="3">Mar</option>
+                        <option value="4">Abr</option>
+                        <option value="5">May</option>
+                        <option value="6">Jun</option>
+                        <option value="7">Jul</option>
+                        <option value="8">Ago</option>
+                        <option value="9">Sep</option>
+                        <option value="10">Oct</option>
+                        <option value="11">Nov</option>
+                        <option value="12">Dic</option>
                     </select>
                     <select name="año">
-                        <option value="">Año</option>
+                        <option value="" selected>Año</option>
                         <option value="1990">1990</option>
                         <option value="1991">1991</option>
                         <option value="1992">1992</option>
@@ -90,14 +90,73 @@
                         <option value="1997">1997</option>
                         <option value="1998">1998</option>
                         <option value="1999">1999</option>
-                        <option value="2000">2000</option>
-              
-</select>
-                    
-
+                        <option value="2000">2000</option> 
+                    </select>
                 </div>
-            </fieldset>                
+            </fieldset> 
+            <fieldset class="estructura">
+                <legend class="titulo-caja">¿DE DÓNDE ERES?</legend>
+                <div class="style-caja">
+                    <label for="ciudad">Ciudad</label>
+                    <input type="text" name="ciudad">
+                </div>
+                <div class="style-caja">
+                    <label for="codigo_p">Codigo postal</label>
+                    <input type="number" name="codigo_p">
+                </div>
+                <div class="style-caja">
+                    <label for="pais">Pais<label>
+                    <select name="pais">
+                        <option value="pais" selected>Pais</option>
+                        <option value="pe">Perú</option>
+                        <option value="ar">Argentina</option>
+                        <option value="cl">Chile</option>
+                        <option value="co">Colombia</option>
+                        <option value="mx">México</option>
+                    </select>
+                </div>
+            </fieldset> 
+            <fieldset class="estructura">
+                <legend class="titulo-caja">¿CÓMO QUIERES INICIAR SESIÓN?</legend>
+                <div class="style-caja">
+                    <label for="nom_usu">Nombre de usuario</label>
+                    <input type="text" name="nom_usu">
+                </div>
+                <div class="style-caja">    
+                    <label for="contraseña">Contraseña</label>
+                    <input type="password" name="contraseña">
+                </div>
+                <div class="style-caja">
+                    <label for="v.Contraseña">Vuelve a escribir la contraseña</label>
+                    <input type="password">
+                </div>
+            </fieldset>   
+            <fieldset class="estructura">
+                <legend class="titulo-caja">CONDICIONES DE REGISTRO</legend>
+                <label>Deseo recibir ofertas de iDESWEB</label>
+                <input type="radio" name="oferta" id="dia">
+                <label class="radio-texto" for="dia">
+                    Una vez al día
+                </label>                       
+                <input type="radio" name="oferta" id="semana">
+                <label class="radio-texto" for="semana">
+                    Una vez a la semana
+                </label>             
+                <input type="radio" name="oferta" id="mes">
+                <label class="radio-texto" for="mes">
+                    Una vez al mes
+                </label>  
+                <br>  
+                <br>               
+                <input type="checkbox" id="condiciones">
+                <label class="radio-texto" for="condiciones">
+                    Acepto el acuerdo de servicios, la declaración de privacidad y la declaración de uso de cookies
+                </label>
+            </fieldset>           
        </form>
+       <div class="boton">
+            <input type="submit" value="Crear cuenta">
+       </div>  
     </main>
 </body>
 </html>
