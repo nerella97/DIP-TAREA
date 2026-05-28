@@ -2,7 +2,30 @@ h1{
     text-align: center; 
 }
 
-h2{
+body{
     text-align: center;  
+}
+
+main{
+    text-align: center;
+}
+
+h2{
+    font-size: 18px
+}
+
+.titulo-caja{
+    font-weight: bold; 
+    text-align: left;
+
+}
+
+.style-caja{
+    text-align: left;
+}
+
+label{
+    display: block;
+    margin-top: 10px;
 }
 
